@@ -1,0 +1,25 @@
+Using device: mps
+29 scans found at data/scan.
+7 scans found at data/scan_valid.
+
+Epoch 1/50
+Training loss:   0.365953
+Validation loss: 54.074049
+Learning rate:   0.00100000
+
+Epoch 2/50
+Training loss:   0.140716
+Validation loss: 1226.665057
+Learning rate:   0.00100000
+
+Epoch 3/50
+Training loss:   0.134112
+Validation loss: 336.808690
+Learning rate:   0.00100000
+
+Epoch 4/50
+Training loss:   0.113829
+Validation loss: 137.935001
+Learning rate:   0.00100000
+
+Epoch 5/50

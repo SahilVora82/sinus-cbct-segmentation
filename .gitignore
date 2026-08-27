@@ -1,0 +1,38 @@
+# Patient / imaging data
+*.nrrd
+*.nii
+*.nii.gz
+*.dcm
+
+# Model checkpoints
+*.pt
+*.pth
+
+# Dataset folders
+MT/data/
+Healthy/data/
+
+# Generated training outputs
+MT/results*/
+MT/checkpoints*/
+MT/validation_analysis/
+MT/validation_postprocess/
+Healthy/results*/
+Healthy/checkpoints*/
+
+# Logs
+*.log
+
+# Python environments / cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/

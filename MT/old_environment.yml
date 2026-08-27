@@ -1,0 +1,13 @@
+﻿name: ct-unet
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - pytorch=1.12.1
+  - cudatoolkit=11.3
+  - matplotlib
+  - numpy
+  - pynrrd
+  - ipykernel
+  - ffmpeg

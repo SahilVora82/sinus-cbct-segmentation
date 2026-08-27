@@ -1,0 +1,19 @@
+Using device: mps
+29 scans found at data/scan.
+7 scans found at data/scan_valid.
+
+Epoch 1/3
+Training loss:   0.622605
+Validation loss: 0.255583
+Learning rate:   0.00100000
+
+Epoch 2/3
+Training loss:   0.188070
+Validation loss: 0.178845
+Learning rate:   0.00100000
+
+Epoch 3/3
+Training loss:   0.164930
+Validation loss: 0.140588
+Learning rate:   0.00100000
+Saved checkpoint: checkpoints/model_3.pth

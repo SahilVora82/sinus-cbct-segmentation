@@ -1,0 +1,8 @@
+{
+    "number_of_training_scans": 29,
+    "number_of_training_voxels": 40742912,
+    "training_mean": -34.69477476229485,
+    "training_std": 244.6038824012994,
+    "median_scan_mean": -31.16480203967748,
+    "median_scan_std": 232.7863569163558
+}
