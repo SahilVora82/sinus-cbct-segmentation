@@ -36,3 +36,9 @@ __pycache__/
 # IDE
 .idea/
 .vscode/
+
+# Allow MT data + best checkpoint for private GitHub LFS transfer
+!MT/data/
+!MT/data/**
+!MT/results_hybrid/
+!MT/results_hybrid/best_mt_model.pt
