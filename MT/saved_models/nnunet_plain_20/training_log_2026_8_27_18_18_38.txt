@@ -1,0 +1,11 @@
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+ 
+2026-08-27 18:18:38.852014: do_dummy_2d_data_aug: False 
+2026-08-27 18:18:38.852014: Using splits from existing split file: C:\Users\sahil\OneDrive\Documents\GitHub\sinus-cbct-segmentation\nnUNet_work\preprocessed\Dataset501_SinusMT\splits_final.json 
+2026-08-27 18:18:38.852014: The split file contains 1 splits. 
+2026-08-27 18:18:38.852014: Desired fold for training: 0 
+2026-08-27 18:18:38.852014: This split has 48 training and 9 validation cases. 

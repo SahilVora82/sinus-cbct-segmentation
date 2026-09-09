@@ -1,0 +1,30 @@
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+ 
+2026-09-04 15:18:28.311925: Using splits from existing split file: C:\Users\sahil\OneDrive\Documents\GitHub\sinus-cbct-segmentation\nnUNet_work\preprocessed\Dataset501_SinusMT\splits_final.json 
+2026-09-04 15:18:28.313234: The split file contains 1 splits. 
+2026-09-04 15:18:28.313234: Desired fold for training: 0 
+2026-09-04 15:18:28.315519: This split has 48 training and 9 validation cases. 
+2026-09-04 15:18:28.316518: predicting FileB13_MT_L 
+2026-09-04 15:18:28.324725: FileB13_MT_L, shape torch.Size([1, 58, 72, 51]), rank 0 
+2026-09-04 15:18:29.710447: predicting FileB13_MT_R 
+2026-09-04 15:18:29.715739: FileB13_MT_R, shape torch.Size([1, 54, 72, 57]), rank 0 
+2026-09-04 15:18:29.823629: predicting FileB16_MT_R 
+2026-09-04 15:18:29.829708: FileB16_MT_R, shape torch.Size([1, 64, 78, 71]), rank 0 
+2026-09-04 15:18:30.216196: predicting FileU1_MT_R 
+2026-09-04 15:18:30.222273: FileU1_MT_R, shape torch.Size([1, 51, 74, 55]), rank 0 
+2026-09-04 15:18:30.328672: predicting FileU2_MT_L 
+2026-09-04 15:18:30.335078: FileU2_MT_L, shape torch.Size([1, 54, 71, 64]), rank 0 
+2026-09-04 15:18:30.441984: predicting FileU36_MT_L 
+2026-09-04 15:18:30.448213: FileU36_MT_L, shape torch.Size([1, 45, 68, 60]), rank 0 
+2026-09-04 15:18:30.558172: predicting FileU42_MT_L 
+2026-09-04 15:18:30.566662: FileU42_MT_L, shape torch.Size([1, 75, 75, 59]), rank 0 
+2026-09-04 15:18:30.769990: predicting FileU46_MT_R 
+2026-09-04 15:18:30.777034: FileU46_MT_R, shape torch.Size([1, 61, 78, 61]), rank 0 
+2026-09-04 15:18:30.981775: predicting FileU7_MT_L 
+2026-09-04 15:18:30.988778: FileU7_MT_L, shape torch.Size([1, 67, 58, 57]), rank 0 
+2026-09-04 15:18:40.168751: Validation complete 
+2026-09-04 15:18:40.169756: Mean Validation Dice:  0.8709598875543481 
