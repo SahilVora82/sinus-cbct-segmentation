@@ -1,0 +1,270 @@
+{
+    "foreground_mean": {
+        "Dice": 0.8491976100805632,
+        "FN": 809.3888888888889,
+        "FP": 2742.9444444444443,
+        "IoU": 0.7635824107607907,
+        "TN": 851077.4444444445,
+        "TP": 30106.222222222223,
+        "n_pred": 32849.16666666667,
+        "n_ref": 30915.61111111111
+    },
+    "mean": {
+        "1": {
+            "Dice": 0.7493557990717004,
+            "FN": 1003.2222222222222,
+            "FP": 984.2222222222222,
+            "IoU": 0.615672933861942,
+            "TN": 878551.2222222222,
+            "TP": 4197.333333333333,
+            "n_pred": 5181.555555555556,
+            "n_ref": 5200.555555555556
+        },
+        "2": {
+            "Dice": 0.9490394210894261,
+            "FN": 615.5555555555555,
+            "FP": 4501.666666666667,
+            "IoU": 0.9114918876596393,
+            "TN": 823603.6666666666,
+            "TP": 56015.11111111111,
+            "n_pred": 60516.77777777778,
+            "n_ref": 56630.666666666664
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.405111821086262,
+                    "FN": 634,
+                    "FP": 297,
+                    "IoU": 0.25400641025641024,
+                    "TN": 883488,
+                    "TP": 317,
+                    "n_pred": 614,
+                    "n_ref": 951
+                },
+                "2": {
+                    "Dice": 0.9774308538051881,
+                    "FN": 165,
+                    "FP": 1937,
+                    "IoU": 0.9558579558579559,
+                    "TN": 837117,
+                    "TP": 45517,
+                    "n_pred": 47454,
+                    "n_ref": 45682
+                }
+            },
+            "prediction_file": "C:\\Users\\sahil\\OneDrive\\Documents\\GitHub\\sinus-cbct-segmentation\\nnUNet_work\\results\\Dataset501_SinusMT\\nnUNetTrainer_100epochs__nnUNetResEncUNetMPlans__3d_fullres\\fold_0\\validation\\FileB13_MT_L.nrrd",
+            "reference_file": "C:\\Users\\sahil\\OneDrive\\Documents\\GitHub\\sinus-cbct-segmentation\\nnUNet_work\\preprocessed\\Dataset501_SinusMT\\gt_segmentations\\FileB13_MT_L.nrrd"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7868003882238758,
+                    "FN": 76,
+                    "FP": 583,
+                    "IoU": 0.6485333333333333,
+                    "TN": 882861,
+                    "TP": 1216,
+                    "n_pred": 1799,
+                    "n_ref": 1292
+                },
+                "2": {
+                    "Dice": 0.9925053533190579,
+                    "FN": 152,
+                    "FP": 520,
+                    "IoU": 0.9851222104144527,
+                    "TN": 839568,
+                    "TP": 44496,
+                    "n_pred": 45016,
+                    "n_ref": 44648
+                }
+            },
+            "prediction_file": "C:\\Users\\sahil\\OneDrive\\Documents\\GitHub\\sinus-cbct-segmentation\\nnUNet_work\\results\\Dataset501_SinusMT\\nnUNetTrainer_100epochs__nnUNetResEncUNetMPlans__3d_fullres\\fold_0\\validation\\FileB13_MT_R.nrrd",
+            "reference_file": "C:\\Users\\sahil\\OneDrive\\Documents\\GitHub\\sinus-cbct-segmentation\\nnUNet_work\\preprocessed\\Dataset501_SinusMT\\gt_segmentations\\FileB13_MT_R.nrrd"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8209713650142848,
+                    "FN": 3239,
+                    "FP": 4970,
+                    "IoU": 0.6963116421885983,
+                    "TN": 857705,
+                    "TP": 18822,
+                    "n_pred": 23792,
+                    "n_ref": 22061
+                },
+                "2": {
+                    "Dice": 0.7944430488963642,
+                    "FN": 282,
+                    "FP": 18539,
+                    "IoU": 0.658984254679205,
+                    "TN": 829545,
+                    "TP": 36370,
+                    "n_pred": 54909,
+                    "n_ref": 36652
+                }
+            },
+            "prediction_file": "C:\\Users\\sahil\\OneDrive\\Documents\\GitHub\\sinus-cbct-segmentation\\nnUNet_work\\results\\Dataset501_SinusMT\\nnUNetTrainer_100epochs__nnUNetResEncUNetMPlans__3d_fullres\\fold_0\\validation\\FileB16_MT_R.nrrd",
+            "reference_file": "C:\\Users\\sahil\\OneDrive\\Documents\\GitHub\\sinus-cbct-segmentation\\nnUNet_work\\preprocessed\\Dataset501_SinusMT\\gt_segmentations\\FileB16_MT_R.nrrd"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8772880089652596,
+                    "FN": 976,
+                    "FP": 338,
+                    "IoU": 0.7814007652636833,
+                    "TN": 878725,
+                    "TP": 4697,
+                    "n_pred": 5035,
+                    "n_ref": 5673
+                },
+                "2": {
+                    "Dice": 0.98723104861329,
+                    "FN": 1164,
+                    "FP": 179,
+                    "IoU": 0.9747840781073976,
+                    "TN": 831476,
+                    "TP": 51917,
+                    "n_pred": 52096,
+                    "n_ref": 53081
+                }
+            },
+            "prediction_file": "C:\\Users\\sahil\\OneDrive\\Documents\\GitHub\\sinus-cbct-segmentation\\nnUNet_work\\results\\Dataset501_SinusMT\\nnUNetTrainer_100epochs__nnUNetResEncUNetMPlans__3d_fullres\\fold_0\\validation\\FileU1_MT_R.nrrd",
+            "reference_file": "C:\\Users\\sahil\\OneDrive\\Documents\\GitHub\\sinus-cbct-segmentation\\nnUNet_work\\preprocessed\\Dataset501_SinusMT\\gt_segmentations\\FileU1_MT_R.nrrd"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7969568470940385,
+                    "FN": 1246,
+                    "FP": 382,
+                    "IoU": 0.6624507567903795,
+                    "TN": 879913,
+                    "TP": 3195,
+                    "n_pred": 3577,
+                    "n_ref": 4441
+                },
+                "2": {
+                    "Dice": 0.9892294192206441,
+                    "FN": 1371,
+                    "FP": 286,
+                    "IoU": 0.9786883769983665,
+                    "TN": 806985,
+                    "TP": 76094,
+                    "n_pred": 76380,
+                    "n_ref": 77465
+                }
+            },
+            "prediction_file": "C:\\Users\\sahil\\OneDrive\\Documents\\GitHub\\sinus-cbct-segmentation\\nnUNet_work\\results\\Dataset501_SinusMT\\nnUNetTrainer_100epochs__nnUNetResEncUNetMPlans__3d_fullres\\fold_0\\validation\\FileU2_MT_L.nrrd",
+            "reference_file": "C:\\Users\\sahil\\OneDrive\\Documents\\GitHub\\sinus-cbct-segmentation\\nnUNet_work\\preprocessed\\Dataset501_SinusMT\\gt_segmentations\\FileU2_MT_L.nrrd"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.6292682926829268,
+                    "FN": 132,
+                    "FP": 780,
+                    "IoU": 0.45907473309608543,
+                    "TN": 883050,
+                    "TP": 774,
+                    "n_pred": 1554,
+                    "n_ref": 906
+                },
+                "2": {
+                    "Dice": 0.9833333333333333,
+                    "FN": 676,
+                    "FP": 762,
+                    "IoU": 0.9672131147540983,
+                    "TN": 840877,
+                    "TP": 42421,
+                    "n_pred": 43183,
+                    "n_ref": 43097
+                }
+            },
+            "prediction_file": "C:\\Users\\sahil\\OneDrive\\Documents\\GitHub\\sinus-cbct-segmentation\\nnUNet_work\\results\\Dataset501_SinusMT\\nnUNetTrainer_100epochs__nnUNetResEncUNetMPlans__3d_fullres\\fold_0\\validation\\FileU36_MT_L.nrrd",
+            "reference_file": "C:\\Users\\sahil\\OneDrive\\Documents\\GitHub\\sinus-cbct-segmentation\\nnUNet_work\\preprocessed\\Dataset501_SinusMT\\gt_segmentations\\FileU36_MT_L.nrrd"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8059796437659033,
+                    "FN": 214,
+                    "FP": 396,
+                    "IoU": 0.6750133191262653,
+                    "TN": 882859,
+                    "TP": 1267,
+                    "n_pred": 1663,
+                    "n_ref": 1481
+                },
+                "2": {
+                    "Dice": 0.9914271664622695,
+                    "FN": 390,
+                    "FP": 1057,
+                    "IoU": 0.9830000704903781,
+                    "TN": 799618,
+                    "TP": 83671,
+                    "n_pred": 84728,
+                    "n_ref": 84061
+                }
+            },
+            "prediction_file": "C:\\Users\\sahil\\OneDrive\\Documents\\GitHub\\sinus-cbct-segmentation\\nnUNet_work\\results\\Dataset501_SinusMT\\nnUNetTrainer_100epochs__nnUNetResEncUNetMPlans__3d_fullres\\fold_0\\validation\\FileU42_MT_L.nrrd",
+            "reference_file": "C:\\Users\\sahil\\OneDrive\\Documents\\GitHub\\sinus-cbct-segmentation\\nnUNet_work\\preprocessed\\Dataset501_SinusMT\\gt_segmentations\\FileU42_MT_L.nrrd"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.8228713486637663,
+                    "FN": 233,
+                    "FP": 622,
+                    "IoU": 0.6990496304118268,
+                    "TN": 881895,
+                    "TP": 1986,
+                    "n_pred": 2608,
+                    "n_ref": 2219
+                },
+                "2": {
+                    "Dice": 0.9934821129849692,
+                    "FN": 903,
+                    "FP": 149,
+                    "IoU": 0.987048641461583,
+                    "TN": 803509,
+                    "TP": 80175,
+                    "n_pred": 80324,
+                    "n_ref": 81078
+                }
+            },
+            "prediction_file": "C:\\Users\\sahil\\OneDrive\\Documents\\GitHub\\sinus-cbct-segmentation\\nnUNet_work\\results\\Dataset501_SinusMT\\nnUNetTrainer_100epochs__nnUNetResEncUNetMPlans__3d_fullres\\fold_0\\validation\\FileU46_MT_R.nrrd",
+            "reference_file": "C:\\Users\\sahil\\OneDrive\\Documents\\GitHub\\sinus-cbct-segmentation\\nnUNet_work\\preprocessed\\Dataset501_SinusMT\\gt_segmentations\\FileU46_MT_R.nrrd"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "Dice": 0.7989544761489872,
+                    "FN": 2279,
+                    "FP": 490,
+                    "IoU": 0.6652158142908959,
+                    "TN": 876465,
+                    "TP": 5502,
+                    "n_pred": 5992,
+                    "n_ref": 7781
+                },
+                "2": {
+                    "Dice": 0.8322724531697185,
+                    "FN": 437,
+                    "FP": 17086,
+                    "IoU": 0.7127282861733172,
+                    "TN": 823738,
+                    "TP": 43475,
+                    "n_pred": 60561,
+                    "n_ref": 43912
+                }
+            },
+            "prediction_file": "C:\\Users\\sahil\\OneDrive\\Documents\\GitHub\\sinus-cbct-segmentation\\nnUNet_work\\results\\Dataset501_SinusMT\\nnUNetTrainer_100epochs__nnUNetResEncUNetMPlans__3d_fullres\\fold_0\\validation\\FileU7_MT_L.nrrd",
+            "reference_file": "C:\\Users\\sahil\\OneDrive\\Documents\\GitHub\\sinus-cbct-segmentation\\nnUNet_work\\preprocessed\\Dataset501_SinusMT\\gt_segmentations\\FileU7_MT_L.nrrd"
+        }
+    ]
+}

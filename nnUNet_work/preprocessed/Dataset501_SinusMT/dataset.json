@@ -1,0 +1,13 @@
+{
+  "channel_names": {
+    "0": "CBCT"
+  },
+  "labels": {
+    "background": 0,
+    "MT": 1,
+    "air": 2
+  },
+  "numTraining": 57,
+  "file_ending": ".nrrd",
+  "overwrite_image_reader_writer": "SimpleITKIO"
+}
