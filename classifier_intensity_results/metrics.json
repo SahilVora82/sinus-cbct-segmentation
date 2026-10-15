@@ -1,0 +1,176 @@
+{
+  "logistic": {
+    "model": "logistic",
+    "primary_mean_fold_auc": 0.9931818181818182,
+    "fold_auc_sd": 0.015245918028407694,
+    "fold_aucs": [
+      1.0,
+      1.0,
+      1.0,
+      0.9659090909090908,
+      1.0
+    ],
+    "pooled_oof_probability_auc": 0.9964912280701754,
+    "foldwise_train_calibrated_metrics": {
+      "accuracy": 0.979381443298969,
+      "balanced_accuracy": 0.9824561403508771,
+      "precision_mt": 1.0,
+      "sensitivity_mt": 0.9649122807017544,
+      "specificity_healthy": 1.0,
+      "f1_mt": 0.9821428571428571,
+      "tn": 40,
+      "fp": 0,
+      "fn": 2,
+      "tp": 55
+    },
+    "folds": [
+      {
+        "fold": 0,
+        "auc": 1.0,
+        "threshold_from_train": 0.45614150168853584,
+        "accuracy_05": 1.0,
+        "balanced_accuracy_05": 1.0,
+        "accuracy_calibrated": 1.0,
+        "balanced_accuracy_calibrated": 1.0,
+        "sensitivity_calibrated": 1.0,
+        "specificity_calibrated": 1.0,
+        "f1_calibrated": 1.0
+      },
+      {
+        "fold": 1,
+        "auc": 1.0,
+        "threshold_from_train": 0.430070366868667,
+        "accuracy_05": 0.95,
+        "balanced_accuracy_05": 0.9583333333333333,
+        "accuracy_calibrated": 1.0,
+        "balanced_accuracy_calibrated": 1.0,
+        "sensitivity_calibrated": 1.0,
+        "specificity_calibrated": 1.0,
+        "f1_calibrated": 1.0
+      },
+      {
+        "fold": 2,
+        "auc": 1.0,
+        "threshold_from_train": 0.4163214305527456,
+        "accuracy_05": 1.0,
+        "balanced_accuracy_05": 1.0,
+        "accuracy_calibrated": 1.0,
+        "balanced_accuracy_calibrated": 1.0,
+        "sensitivity_calibrated": 1.0,
+        "specificity_calibrated": 1.0,
+        "f1_calibrated": 1.0
+      },
+      {
+        "fold": 3,
+        "auc": 0.9659090909090908,
+        "threshold_from_train": 0.4782545439658831,
+        "accuracy_05": 0.8421052631578947,
+        "balanced_accuracy_05": 0.8636363636363636,
+        "accuracy_calibrated": 0.8947368421052632,
+        "balanced_accuracy_calibrated": 0.9090909090909092,
+        "sensitivity_calibrated": 0.8181818181818182,
+        "specificity_calibrated": 1.0,
+        "f1_calibrated": 0.9
+      },
+      {
+        "fold": 4,
+        "auc": 1.0,
+        "threshold_from_train": 0.3537528612105839,
+        "accuracy_05": 1.0,
+        "balanced_accuracy_05": 1.0,
+        "accuracy_calibrated": 1.0,
+        "balanced_accuracy_calibrated": 1.0,
+        "sensitivity_calibrated": 1.0,
+        "specificity_calibrated": 1.0,
+        "f1_calibrated": 1.0
+      }
+    ]
+  },
+  "random_forest": {
+    "model": "random_forest",
+    "primary_mean_fold_auc": 0.9956439393939395,
+    "fold_auc_sd": 0.005974170566510406,
+    "fold_aucs": [
+      0.9895833333333334,
+      1.0,
+      1.0,
+      0.9886363636363636,
+      1.0
+    ],
+    "pooled_oof_probability_auc": 0.9973684210526316,
+    "foldwise_train_calibrated_metrics": {
+      "accuracy": 0.9690721649484536,
+      "balanced_accuracy": 0.9699561403508772,
+      "precision_mt": 0.9821428571428571,
+      "sensitivity_mt": 0.9649122807017544,
+      "specificity_healthy": 0.975,
+      "f1_mt": 0.9734513274336283,
+      "tn": 39,
+      "fp": 1,
+      "fn": 2,
+      "tp": 55
+    },
+    "folds": [
+      {
+        "fold": 0,
+        "auc": 0.9895833333333334,
+        "threshold_from_train": 0.6354359307359312,
+        "accuracy_05": 0.9,
+        "balanced_accuracy_05": 0.8958333333333333,
+        "accuracy_calibrated": 0.95,
+        "balanced_accuracy_calibrated": 0.9583333333333333,
+        "sensitivity_calibrated": 0.9166666666666666,
+        "specificity_calibrated": 1.0,
+        "f1_calibrated": 0.9565217391304348
+      },
+      {
+        "fold": 1,
+        "auc": 1.0,
+        "threshold_from_train": 0.5143146464646462,
+        "accuracy_05": 1.0,
+        "balanced_accuracy_05": 1.0,
+        "accuracy_calibrated": 1.0,
+        "balanced_accuracy_calibrated": 1.0,
+        "sensitivity_calibrated": 1.0,
+        "specificity_calibrated": 1.0,
+        "f1_calibrated": 1.0
+      },
+      {
+        "fold": 2,
+        "auc": 1.0,
+        "threshold_from_train": 0.4833932178932178,
+        "accuracy_05": 1.0,
+        "balanced_accuracy_05": 1.0,
+        "accuracy_calibrated": 1.0,
+        "balanced_accuracy_calibrated": 1.0,
+        "sensitivity_calibrated": 1.0,
+        "specificity_calibrated": 1.0,
+        "f1_calibrated": 1.0
+      },
+      {
+        "fold": 3,
+        "auc": 0.9886363636363636,
+        "threshold_from_train": 0.6135555555555559,
+        "accuracy_05": 0.9473684210526315,
+        "balanced_accuracy_05": 0.9375,
+        "accuracy_calibrated": 0.8947368421052632,
+        "balanced_accuracy_calibrated": 0.8920454545454546,
+        "sensitivity_calibrated": 0.9090909090909091,
+        "specificity_calibrated": 0.875,
+        "f1_calibrated": 0.9090909090909091
+      },
+      {
+        "fold": 4,
+        "auc": 1.0,
+        "threshold_from_train": 0.4851524531024532,
+        "accuracy_05": 1.0,
+        "balanced_accuracy_05": 1.0,
+        "accuracy_calibrated": 1.0,
+        "balanced_accuracy_calibrated": 1.0,
+        "sensitivity_calibrated": 1.0,
+        "specificity_calibrated": 1.0,
+        "f1_calibrated": 1.0
+      }
+    ]
+  }
+}
